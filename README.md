@@ -4,7 +4,7 @@ STRC Tracker is an iOS app that tracks Strategy's STRC Bitcoin accumulation prog
 
 ## Contact
 
-For support, questions, or feedback, please [open an issue](../../issues) on this repository. We'll respond as quickly as we can.
+For support, questions, or feedback, please email **cws2026@proton.me**. We'll respond as quickly as we can.
 
 ## Frequently Asked Questions
 
@@ -59,7 +59,7 @@ Release notes for each version are available on the App Store listing.
 
 ## Reporting a Bug
 
-If you encounter a bug or unexpected behavior, please [open an issue](../../issues) and include:
+If you encounter a bug or unexpected behavior, please email **cws2026@proton.me** and include:
 
 - Your iOS version
 - Your iPhone model
