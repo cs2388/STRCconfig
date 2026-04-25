@@ -125,4 +125,20 @@
           ],
           "ageCapDays": 14
         }
+  "coindesk": {
+    "rssURL": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "keywords": [
+      "strc",
+      "stretch",
+      "saylor",
+      "mstr",
+      "microstrategy",
+      "strk",
+      "strf",
+      "preferred stock",
+      "digital credit"
+    ],
+    "ageCapDays": 14,
+    "enabled": true
+  }
 }
