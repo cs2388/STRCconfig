@@ -89,42 +89,33 @@
       { "channelId": "UCk6EGp5yqsB-YtBE3AF8dWw", "displayName": "Bitcoin For Corporations" },
       { "channelId": "UCtOV5M-T3GcsJAq8QKaf0lg", "displayName": "Bitcoin Magazine" },
       {
-              "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
-              "displayName": "CNBC Television",
-              "keywords": [
-                "saylor",
-                "mstr"
-              ]
-            },
-            {
-              "channelId": "UCIALMKvObZNtJ6AmdCLP7Lg",
-              "displayName": "Bloomberg Television",
-              "keywords": [
-                "saylor",
-                "mstr"
-              ]
-            },
-            {
-              "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
-              "displayName": "Fox Business",
-              "keywords": [
-                "saylor",
-                "mstr"
-              ]
-            }
-          ],
-          "keywords": [
-            "strc",
-            "stretch",
-            "digital credit",
-            "credit instrument",
-            "strk",
-            "strf",
-            "preferred stock",
-            "perpetual preferred"
-          ],
-          "ageCapDays": 14
-        }
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "displayName": "CNBC Television",
+        "keywords": ["saylor", "mstr"]
+      },
+      {
+        "channelId": "UCIALMKvObZNtJ6AmdCLP7Lg",
+        "displayName": "Bloomberg Television",
+        "keywords": ["saylor", "mstr"]
+      },
+      {
+        "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+        "displayName": "Fox Business",
+        "keywords": ["saylor", "mstr"]
+      }
+    ],
+    "keywords": [
+      "strc",
+      "stretch",
+      "digital credit",
+      "credit instrument",
+      "strk",
+      "strf",
+      "preferred stock",
+      "perpetual preferred"
+    ],
+    "ageCapDays": 14
+  },
   "coindesk": {
     "rssURL": "https://www.coindesk.com/arc/outboundfeeds/rss/",
     "keywords": [
