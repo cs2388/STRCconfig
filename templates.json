@@ -9,23 +9,24 @@
     "6. Commit + push config.json to GitHub. CDN propagates in ~5min.",
     "7. App's next config refresh applies the override."
   ],
-  "_app_behavior": "Per-date precedence: config entries REPLACE any auto-parsed entry for the same date (patch292). EDGAR continues to populate dates not in config (patch293 gap-fill). To revert a correction, delete the entry from config.json and push \u2014 EDGAR resumes for that date.",
+  "_app_behavior": "Per-date precedence: config entries REPLACE any auto-parsed entry for the same date (patch292). EDGAR continues to populate dates not in config (patch293 gap-fill). To revert a correction, delete the entry from config.json and push — EDGAR resumes for that date.",
   "examples": {
     "strc_funded_correction": {
       "_when_to_use": "Parser extracted wrong STRC slice from an 8-K where STRC was a real funding source. The week may have been pure-STRC or mixed (STRC + MSTR). Replace 'btc' with the STRC-funded BTC slice and 'totalValueUSD' with STRC-funded proceeds USD. Set 'totalWeeklyBTC' / 'totalWeeklyProceeds' to the strategy-wide totals (the BTC Update table in the 8-K).",
+      "_headline_field": "The BIG BTC NUMBER on Dashboard + Activity cards comes from 'totalWeeklyBTC' (the strategy-wide total). Set this to the full weekly purchase from the 8-K's BTC Update table. The 'btc' field below is only the STRC-attributable slice — shown as 'STRC FUNDED · $X · NN%' attribution line, NOT the headline. If you only fill in 'btc' and leave 'totalWeeklyBTC' out, the headline falls back to 'btc' (smaller number) and the card loses its attribution lines.",
       "_notes": [
         "Required: date, btc, totalValueUSD, avgPriceUSD, filingDescription, secURL.",
-        "Optional but recommended: totalWeeklyBTC, totalWeeklyProceeds, fundingSource.",
+        "Strongly recommended: totalWeeklyBTC, totalWeeklyProceeds, fundingSource.",
         "Without weekly totals, card falls through to simple 'CAPTURED $X' layout.",
         "fundingSource defaults to 'strc' if omitted.",
-        "secURL: copy from EDGAR \u2014 must be parseable as URL."
+        "secURL: copy from EDGAR — must be parseable as URL."
       ],
       "entry": {
         "date": "YYYY-MM-DD",
         "btc": 0,
         "totalValueUSD": 0,
         "avgPriceUSD": 0,
-        "filingDescription": "8-K MMM D, YYYY \u00b7 STRC period MMM D-MMM D",
+        "filingDescription": "8-K MMM D, YYYY · STRC period MMM D-MMM D",
         "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/{accessionClean}/{primaryDoc}.htm",
         "totalWeeklyBTC": 0,
         "totalWeeklyProceeds": 0,
@@ -34,11 +35,12 @@
     },
     "mstr_only_correction": {
       "_when_to_use": "Parser misread an MSTR-only week as STRC-funded, OR Strategy filed an MSTR-only week and parser failed to produce any entry at all. Set 'btc' / 'totalValueUSD' to 0 (no STRC slice). Set 'totalWeeklyBTC' / 'totalWeeklyProceeds' to the full weekly purchase. fundingSource MUST be 'mstr' or the YTD chart will incorrectly include this entry.",
+      "_headline_field": "The BIG BTC NUMBER on Dashboard + Activity cards comes from 'totalWeeklyBTC'. For MSTR-only weeks this IS the full weekly purchase (no STRC slice exists to compare against). The 'btc' field MUST be 0 because no STRC-attributable BTC was acquired this week. Card renders as: '<totalWeeklyBTC> BTC' headline + 'MSTR FUNDED · $<totalWeeklyProceeds> · 100%' attribution.",
       "_notes": [
         "btc and totalValueUSD = 0 because no STRC funded this week.",
         "totalWeeklyBTC and totalWeeklyProceeds = full purchase numbers.",
-        "fundingSource = 'mstr' is REQUIRED \u2014 otherwise YTD chart inflates.",
-        "Activity card will render: '3,273 BTC' headline + 'MSTR FUNDED \u00b7 $X \u00b7 100%'."
+        "fundingSource = 'mstr' is REQUIRED — otherwise YTD chart inflates.",
+        "Activity card will render: '3,273 BTC' headline + 'MSTR FUNDED · $X · 100%'."
       ],
       "entry": {
         "date": "YYYY-MM-DD",
@@ -53,7 +55,8 @@
       }
     },
     "mixed_funding_correction": {
-      "_when_to_use": "Future use: filing where multiple preferred classes (STRC + STRK + STRF, etc.) jointly funded a purchase batch. Currently rare \u2014 Strategy mostly mixes STRC and MSTR ATMs. Set 'btc' / 'totalValueUSD' to the STRC-attributable slice. The 'mixed' fundingSource currently routes to STRC-funded display logic; may need parser/view updates if STRK / STRF start funding.",
+      "_when_to_use": "Future use: filing where multiple preferred classes (STRC + STRK + STRF, etc.) jointly funded a purchase batch. Currently rare — Strategy mostly mixes STRC and MSTR ATMs. Set 'btc' / 'totalValueUSD' to the STRC-attributable slice. The 'mixed' fundingSource currently routes to STRC-funded display logic; may need parser/view updates if STRK / STRF start funding.",
+      "_headline_field": "The BIG BTC NUMBER on Dashboard + Activity cards comes from 'totalWeeklyBTC' (full strategy-wide purchase across all funding sources). The 'btc' field is the STRC-attributable slice only. View renders 'MSTR FUNDED' as headline minus STRC slice, which on truly-mixed weeks (STRC+STRK+MSTR) will lump non-STRC slices together under 'MSTR FUNDED' label — slightly wrong but cosmetic. Fix at parser level when STRK/STRF/STRD start funding.",
       "_notes": [
         "Same field structure as strc_funded_correction.",
         "fundingSource = 'mixed' for future-proof tagging.",
@@ -64,7 +67,7 @@
         "btc": 0,
         "totalValueUSD": 0,
         "avgPriceUSD": 0,
-        "filingDescription": "8-K MMM D, YYYY \u00b7 mixed funding",
+        "filingDescription": "8-K MMM D, YYYY · mixed funding",
         "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/{accessionClean}/{primaryDoc}.htm",
         "totalWeeklyBTC": 0,
         "totalWeeklyProceeds": 0,
@@ -73,26 +76,27 @@
     }
   },
   "_top_level_overrides": {
-    "_doc": "These are not in confirmedPurchases \u2014 they are top-level keys in config.json itself. Listed here for reference.",
+    "_doc": "These are not in confirmedPurchases — they are top-level keys in config.json itself. Listed here for reference.",
     "strategyTotalBTC": {
-      "_when_to_use": "Update Strategy's total BTC holdings displayed on Dashboard. Should match the 'As of' figure from the most recent 8-K. Note: app uses MONOTONIC guard \u2014 only larger values win. Cannot decrease via config (Strategy doesn't sell BTC, so this is fine in practice).",
+      "_when_to_use": "Update Strategy's total BTC holdings displayed on Dashboard. Should match the 'As of' figure from the most recent 8-K. Note: app uses MONOTONIC guard — only larger values win. Cannot decrease via config (Strategy doesn't sell BTC, so this is fine in practice).",
       "example_value": 818334
     },
     "strcYield": {
       "_when_to_use": "Update current STRC monthly yield rate (annualized). Strategy adjusts this monthly. Match to most recent yield-change 8-K. Range 0-50, typically 9-12.",
-      "example_value": 11.5
+      "example_value": 11.50
     }
   },
   "_daily_overrides": {
     "_doc": "RemoteOverride entries go in the top-level 'overrides' array (not 'confirmedPurchases'). Used to correct daily ATM estimate cards (not 8-K filings). Each entry replaces the snapshot/seed for that single day.",
+    "_headline_field": "Unlike confirmedPurchases entries, the 'btc' field here IS the big BTC number on the daily estimate card. There is no separate 'totalWeekly...' field for daily overrides because each entry represents a single day's estimated activity, not a weekly total.",
     "entry": {
       "date": "YYYY-MM-DD",
       "confidence": "high",
       "_confidence_options": "zero | low | medium | high | confirmed",
       "btc": 0,
-      "_btc_note": "Optional. Omit for zero-activity days.",
+      "_btc_note": "Optional. Drives the headline BTC number on the daily card. Omit for zero-activity days.",
       "proceeds": 0,
-      "_proceeds_note": "Optional. USD value.",
+      "_proceeds_note": "Optional. USD value shown alongside BTC.",
       "reason": "self-documenting note for why this override exists"
     }
   }
