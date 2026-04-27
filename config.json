@@ -1,9 +1,17 @@
 {
   "version": 1,
-  "updated": "2026-04-25T12:00:00Z",
-  "strategyTotalBTC": 780891,
+  "updated": "2026-04-27T12:00:00Z",
+  "strategyTotalBTC": 818334,
   "strcYield": 11.50,
   "confirmedPurchases": [
+    {
+      "date": "2026-04-27",
+      "btc": 3273,
+      "totalValueUSD": 255000000,
+      "avgPriceUSD": 77906,
+      "filingDescription": "8-K Apr 27, 2026 · Week of Apr 20–26",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526178994/mstr-20260223.htm"
+    },
     {
       "date": "2026-04-13",
       "btc": 13927,
