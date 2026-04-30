@@ -3,16 +3,7 @@
   "updated": "2026-04-25T12:00:00Z",
   "strategyTotalBTC": 780891,
   "strcYield": 11.50,
-  "confirmedPurchases": [
-    {
-      "date": "2026-04-13",
-      "btc": 13927,
-      "totalValueUSD": 1001300000,
-      "avgPriceUSD": 71902,
-      "filingDescription": "8-K Apr 13, 2026 · STRC period Apr 5–11",
-      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526152015/mstr-20260223.htm"
-    }
-  ],
+  "confirmedPurchases": [],
   "videos": {
     "channels": [
       { "channelId": "UCw4_-IVRDtkGZkwUmsv1S2A", "displayName": "Joe Consorti" },
