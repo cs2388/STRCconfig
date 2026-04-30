@@ -3,7 +3,6 @@
   "updated": "2026-04-25T12:00:00Z",
   "strategyTotalBTC": 780891,
   "strcYield": 11.50,
-<<<<<<< HEAD
   "confirmedPurchases": [
     {
       "date": "2026-04-00",
@@ -70,7 +69,6 @@
       "secURL": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526009811/mstr-20260105.htm"
     }
   ],
->>>>>>> parent of 6d725f8 (Update config.json)
   "videos": {
     "channels": [
       { "channelId": "UCw4_-IVRDtkGZkwUmsv1S2A", "displayName": "Joe Consorti" },
