@@ -29,7 +29,7 @@
       "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526107263/mstr-20260223.htm"
     },
     {
-      "date": "2026-03-09",
+      "date": "2026-03-00",
       "btc": 5315,
       "totalValueUSD": 377100000,
       "avgPriceUSD": 70946,
@@ -37,7 +37,7 @@
       "secURL": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSTR&type=8-K&dateb=20260310&owner=include&count=1"
     },
     {
-      "date": "2026-03-02",
+      "date": "2026-03-00",
       "btc": 105,
       "totalValueUSD": 7100000,
       "avgPriceUSD": 67700,
