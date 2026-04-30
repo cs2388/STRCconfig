@@ -5,6 +5,38 @@
   "strcYield": 11.50,
   "confirmedPurchases": [
     {
+      "date": "2026-04-00",
+      "btc": 4871,
+      "totalValueUSD": 329900000,
+      "avgPriceUSD": 67724,
+      "filingDescription": "8-K Apr 6, 2026 · STRC period Mar 29–Apr 4",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526142925/mstr-20260406.htm"
+    },
+    {
+      "date": "2026-03-00",
+      "btc": 16816,
+      "totalValueUSD": 1180400000,
+      "avgPriceUSD": 70194,
+      "filingDescription": "8-K Mar 16, 2026 · STRC period Mar 9–15",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526107263/mstr-20260223.htm"
+    },
+    {
+      "date": "2026-03-00",
+      "btc": 5315,
+      "totalValueUSD": 377100000,
+      "avgPriceUSD": 70946,
+      "filingDescription": "8-K Mar 9, 2026 · STRC period Mar 2–8",
+      "secURL": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSTR&type=8-K&dateb=20260310&owner=include&count=1"
+    },
+    {
+      "date": "2026-03-00",
+      "btc": 105,
+      "totalValueUSD": 7100000,
+      "avgPriceUSD": 67700,
+      "filingDescription": "8-K Mar 2, 2026 · STRC period Feb 23–Mar 1",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526084264/mstr-20260228.htm"
+    },
+    {
       "date": "2026-02-17",
       "btc": 1158,
       "totalValueUSD": 78400000,
