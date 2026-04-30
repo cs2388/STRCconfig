@@ -35,38 +35,6 @@
       "avgPriceUSD": 67700,
       "filingDescription": "8-K Mar 2, 2026 · STRC period Feb 23–Mar 1",
       "secURL": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526084264/mstr-20260228.htm"
-    },
-    {
-      "date": "2026-02-17",
-      "btc": 1158,
-      "totalValueUSD": 78400000,
-      "avgPriceUSD": 67700,
-      "filingDescription": "8-K Feb 17, 2026 · STRC period Feb 9–16",
-      "secURL": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSTR&type=8-K&dateb=20260218&owner=include&count=1"
-    },
-    {
-      "date": "2026-01-26",
-      "btc": 78,
-      "totalValueUSD": 7000000,
-      "avgPriceUSD": 90061,
-      "filingDescription": "8-K Jan 26, 2026 · STRC period Jan 20–25",
-      "secURL": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526021726/mstr-20260105.htm"
-    },
-    {
-      "date": "2026-01-20",
-      "btc": 3089,
-      "totalValueUSD": 294300000,
-      "avgPriceUSD": 95284,
-      "filingDescription": "8-K Jan 20, 2026 · STRC period Jan 12–19",
-      "secURL": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526016002/mstr-20260105.htm"
-    },
-    {
-      "date": "2026-01-12",
-      "btc": 1301,
-      "totalValueUSD": 119100000,
-      "avgPriceUSD": 91519,
-      "filingDescription": "8-K Jan 12, 2026 · STRC period Jan 5–11",
-      "secURL": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526009811/mstr-20260105.htm"
     }
   ],
   "videos": {
