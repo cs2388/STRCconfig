@@ -40,7 +40,7 @@
   "videos": {
     "channels": [
       { "channelId": "UCw4_-IVRDtkGZkwUmsv1S2A", "displayName": "Joe Consorti" },
-      { "channelId": "UCR9Q6w9zyf_KS2ujrzhoLyA", "displayName": "True North" },
+      { "channelId": "UCR9Q6w9zyf_KS2ujrzhoLyA", "displayName": "True North", "excludeKeywords": ["#bitcoin"] },
       { "channelId": "UCkCIs_An-QusZ4oCv1cAD7w", "displayName": "Onramp Media" },
       { "channelId": "UCz68EBBA-w0rS4pYC2tcU8Q", "displayName": "Horizon" },
       { "channelId": "UCq6AqCnxP5_fKIcTDK9MD4Q", "displayName": "Joe Burnett" },
