@@ -60,7 +60,8 @@
       {
         "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
         "displayName": "Fox Business",
-        "keywords": ["saylor", "mstr"]
+        "keywords": ["saylor", "mstr"],
+        "excludeKeywords": ["armstrong"]
       }
     ],
     "keywords": [
