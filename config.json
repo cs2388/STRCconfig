@@ -6,11 +6,11 @@
   "confirmedPurchases": [
     {
       "date": "2026-04-00",
-      "btc": 4871,
+      "btc": 535,
       "totalValueUSD": 329900000,
-      "avgPriceUSD": 67724,
-      "filingDescription": "8-K Apr 6, 2026 · STRC period Mar 29–Apr 4",
-      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526142925/mstr-20260406.htm"
+      "avgPriceUSD": 80374,
+      "filingDescription": "8-K May 11, 2026 · STRC period May 4–10",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526215754/mstr-20260504.htm"
     },
     {
       "date": "2026-03-00",
