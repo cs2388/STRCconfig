@@ -57,7 +57,8 @@
       {
         "channelId": "UCIALMKvObZNtJ6AmdCLP7Lg",
         "displayName": "Bloomberg Television",
-        "keywords": ["saylor", "mstr"]
+        "keywords": ["saylor", "mstr"],
+        "excludeKeywords": ["armstrong", "strassel"]
       },
       {
         "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
