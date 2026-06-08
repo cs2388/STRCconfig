@@ -79,6 +79,11 @@
       "preferred stock",
       "perpetual preferred"
     ],
+    "excludeKeywords": [
+      "#shorts",
+      "armstrong",
+      "strassel"
+    ],
     "ageCapDays": 14
   },
   "coindesk": {
