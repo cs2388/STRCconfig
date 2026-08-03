@@ -5,6 +5,17 @@
   "blockedFilingDates": ["2026-06-01"],
   "strcYield": 11.50,
   "confirmedPurchases": [],
+  "confirmedSales": [
+  {
+    "date": "2026-08-03",
+    "btcSold": 1638,
+    "proceedsUSD": 104730000,
+    "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526329565/mstr-20260803.htm",
+    "avgSalePriceUSD": 63957,
+    "coveragePeriod": "Jul 27 – Aug 2",
+    "filingDescription": "8-K Aug 3, 2026 · BTC sale"
+  }
+],
   "videos": {
     "channels": [
       { "channelId": "UCw4_-IVRDtkGZkwUmsv1S2A", "displayName": "Joe Consorti" },
