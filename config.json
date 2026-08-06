@@ -2,7 +2,7 @@
   "version": 1,
   "updated": "2026-07-05T23:00:00Z",
   "strategyTotalBTC": 842138,
-  "blockedFilingDates": ["2026-06-01", "2026-08-03"],
+  "blockedFilingDates": ["2026-06-01"],
   "strcYield": 11.50,
   "confirmedPurchases": [],
   "confirmedSales": [
