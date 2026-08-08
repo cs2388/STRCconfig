@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Code_Remote",
+      "mcp__claude-code-remote",
+      "mcp__github",
+      "mcp__Google_Calendar",
+      "mcp__Google_Drive"
+    ]
+  }
+}
