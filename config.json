@@ -2,7 +2,7 @@
   "version": 1,
   "updated": "2026-07-05T23:00:00Z",
   "strategyTotalBTC": 842138,
-  "blockedFilingDates": ["2026-06-01", "2026-08-03"],
+  "blockedFilingDates": ["2026-06-01", "2026-08-03", "2026-08-10"],
   "strcYield": 11.50,
   "confirmedPurchases": [],
   "confirmedSales": [
@@ -14,6 +14,15 @@
     "avgSalePriceUSD": 63957,
     "coveragePeriod": "Jul 27 – Aug 2",
     "filingDescription": "8-K Aug 3, 2026 · BTC sale"
+  },
+  {
+    "date": "2026-08-10",
+    "btcSold": 1690,
+    "proceedsUSD": 108600000,
+    "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526341297/mstr-20260810.htm",
+    "avgSalePriceUSD": 64262,
+    "coveragePeriod": "Aug 3 – Aug 9",
+    "filingDescription": "8-K Aug 10, 2026 · BTC sale"
   }
 ],
   "videos": {
