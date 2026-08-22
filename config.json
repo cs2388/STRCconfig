@@ -108,7 +108,7 @@
     ],
     "ageCapDays": 14,
     "enabled": true
-  }
+  },
   "preferredDividends": {
   "asOf": "2026-06-30",
   "source": "10-Q 0001050446-26-000044 preferred stock table; STRE converted from EUR 775.0M at 1.1817 (rate implied by Q1 dividends paid: $22,895k / (EUR 775,000k x 10%/4))",
