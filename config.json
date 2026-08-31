@@ -11,6 +11,17 @@
   "strcYield": 12.00,
   "confirmedPurchases": [
     {
+      "date": "2026-08-31",
+      "btc": 4603,
+      "totalValueUSD": 369700000,
+      "avgPriceUSD": 80318,
+      "filingDescription": "8-K Aug 31, 2026 · MSTR-funded period Aug 24–Aug 30",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526375463/mstr-20260831.htm",
+      "fundingSource": "mstr",
+      "totalWeeklyBTC": 4603,
+      "totalWeeklyProceeds": 369700000
+    },
+    {
       "date": "2026-03-09",
       "btc": 5301,
       "totalValueUSD": 377100000,
