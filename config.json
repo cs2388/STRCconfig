@@ -5,7 +5,8 @@
   "usdReserve": {
     "balanceUSD": 5100000000,
     "monetizationCapacityUSD": 1250000000,
-    "monetizationAvailableUSD": 1250000000
+    "monetizationAvailableUSD": 1250000000,
+    "usdCash": 1610000000
   },
   "blockedFilingDates": ["2026-06-01", "2026-08-03", "2026-08-10"],
   "strcYield": 12.00,
