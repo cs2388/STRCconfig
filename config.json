@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated": "2026-08-31T17:00:00Z",
+  "updated": "2026-09-19T00:11:00Z",
   "strategyTotalBTC": 845050,
   "usdReserve": {
     "balanceUSD": 5100000000,
     "monetizationCapacityUSD": 1250000000,
     "monetizationAvailableUSD": 1250000000,
-    "usdCash": 1610000000
+    "usdCash": 1300000000
   },
   "blockedFilingDates": ["2026-06-01", "2026-08-03", "2026-08-10"],
   "strcYield": 12.00,
