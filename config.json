@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-21T22:53:16Z",
+  "updated": "2026-09-22T02:24:12Z",
   "strategyTotalBTC": 846000,
   "usdReserve": {
     "balanceUSD": 5100000000,
@@ -8,8 +8,12 @@
     "monetizationAvailableUSD": 1250000000,
     "usdCash": 1300000000
   },
-  "blockedFilingDates": ["2026-06-01", "2026-08-03", "2026-08-10"],
-  "strcYield": 12.00,
+  "blockedFilingDates": [
+    "2026-06-01",
+    "2026-08-03",
+    "2026-08-10"
+  ],
+  "strcYield": 12.0,
   "confirmedPurchases": [
     {
       "date": "2026-09-21",
@@ -18,7 +22,7 @@
       "avgPriceUSD": 79670,
       "filingDescription": "8-K Sep 21, 2026 · USD-Cash-funded period Sep 14–Sep 20",
       "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526396093/mstr-20260914.htm",
-      "fundingSource": "usdcash",
+      "fundingSource": "mstr",
       "totalWeeklyBTC": 950,
       "totalWeeklyProceeds": 75700000
     },
@@ -57,52 +61,98 @@
     }
   ],
   "confirmedSales": [
-  {
-    "date": "2026-08-03",
-    "btcSold": 1638,
-    "proceedsUSD": 104730000,
-    "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526329565/mstr-20260803.htm",
-    "avgSalePriceUSD": 63957,
-    "coveragePeriod": "Jul 27 – Aug 2",
-    "filingDescription": "8-K Aug 3, 2026 · BTC sale"
-  },
-  {
-    "date": "2026-08-10",
-    "btcSold": 1690,
-    "proceedsUSD": 108600000,
-    "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526341297/mstr-20260810.htm",
-    "avgSalePriceUSD": 64262,
-    "coveragePeriod": "Aug 3 – Aug 9",
-    "filingDescription": "8-K Aug 10, 2026 · BTC sale"
-  }
-],
+    {
+      "date": "2026-08-03",
+      "btcSold": 1638,
+      "proceedsUSD": 104730000,
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526329565/mstr-20260803.htm",
+      "avgSalePriceUSD": 63957,
+      "coveragePeriod": "Jul 27 – Aug 2",
+      "filingDescription": "8-K Aug 3, 2026 · BTC sale"
+    },
+    {
+      "date": "2026-08-10",
+      "btcSold": 1690,
+      "proceedsUSD": 108600000,
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526341297/mstr-20260810.htm",
+      "avgSalePriceUSD": 64262,
+      "coveragePeriod": "Aug 3 – Aug 9",
+      "filingDescription": "8-K Aug 10, 2026 · BTC sale"
+    }
+  ],
   "videos": {
     "channels": [
-      { "channelId": "UCw4_-IVRDtkGZkwUmsv1S2A", "displayName": "Joe Consorti" },
-      { "channelId": "UCR9Q6w9zyf_KS2ujrzhoLyA", "displayName": "True North", "excludeKeywords": ["#bitcoin"] },
-      { "channelId": "UCkCIs_An-QusZ4oCv1cAD7w", "displayName": "Onramp Media" },
-      { "channelId": "UCz68EBBA-w0rS4pYC2tcU8Q", "displayName": "Horizon" },
-      { "channelId": "UCq6AqCnxP5_fKIcTDK9MD4Q", "displayName": "Joe Burnett" },
-      { "channelId": "UCuJJ-4qnLxxamOlqpOO0vvA", "displayName": "Bitcoin Treasuries" },
-      { "channelId": "UCeMr7Ji0skwzjp5D21BOO6Q", "displayName": "Strategy", "keywords": [] },
-      { "channelId": "UCru3nlhzHrbgK21x0MdB_eg", "displayName": "Natalie Brunell" },
-      { "channelId": "UCtOV5M-T3GcsJAq8QKaf0lg", "displayName": "Bitcoin Magazine" },
+      {
+        "channelId": "UCw4_-IVRDtkGZkwUmsv1S2A",
+        "displayName": "Joe Consorti"
+      },
+      {
+        "channelId": "UCR9Q6w9zyf_KS2ujrzhoLyA",
+        "displayName": "True North",
+        "excludeKeywords": [
+          "#bitcoin"
+        ]
+      },
+      {
+        "channelId": "UCkCIs_An-QusZ4oCv1cAD7w",
+        "displayName": "Onramp Media"
+      },
+      {
+        "channelId": "UCz68EBBA-w0rS4pYC2tcU8Q",
+        "displayName": "Horizon"
+      },
+      {
+        "channelId": "UCq6AqCnxP5_fKIcTDK9MD4Q",
+        "displayName": "Joe Burnett"
+      },
+      {
+        "channelId": "UCuJJ-4qnLxxamOlqpOO0vvA",
+        "displayName": "Bitcoin Treasuries"
+      },
+      {
+        "channelId": "UCeMr7Ji0skwzjp5D21BOO6Q",
+        "displayName": "Strategy",
+        "keywords": []
+      },
+      {
+        "channelId": "UCru3nlhzHrbgK21x0MdB_eg",
+        "displayName": "Natalie Brunell"
+      },
+      {
+        "channelId": "UCtOV5M-T3GcsJAq8QKaf0lg",
+        "displayName": "Bitcoin Magazine"
+      },
       {
         "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
         "displayName": "CNBC Television",
-        "keywords": ["saylor", "mstr"]
+        "keywords": [
+          "saylor",
+          "mstr"
+        ]
       },
       {
         "channelId": "UCIALMKvObZNtJ6AmdCLP7Lg",
         "displayName": "Bloomberg Television",
-        "keywords": ["saylor", "mstr"],
-        "excludeKeywords": ["armstrong", "strassel"]
+        "keywords": [
+          "saylor",
+          "mstr"
+        ],
+        "excludeKeywords": [
+          "armstrong",
+          "strassel"
+        ]
       },
       {
         "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
         "displayName": "Fox Business",
-        "keywords": ["saylor", "mstr"],
-        "excludeKeywords": ["armstrong", "strassel"]
+        "keywords": [
+          "saylor",
+          "mstr"
+        ],
+        "excludeKeywords": [
+          "armstrong",
+          "strassel"
+        ]
       }
     ],
     "keywords": [
@@ -117,25 +167,24 @@
       "preferred stock",
       "perpetual preferred"
     ],
-
     "manual": [
-  {
-    "url": "https://youtu.be/lb13vPvYUpE",
-    "publishedAt": "2026-06-24T19:58:00Z"
-  },
-    {
-    "url": "https://youtu.be/oNROWTxcOYg",
-    "publishedAt": "2026-06-25T10:58:00Z"
-  },
-    {
-    "url": "https://youtu.be/N1hWl-Vul94",
-    "publishedAt": "2026-07-01T13:58:00Z"
-  },
-    {
-    "url": "https://youtu.be/Xz7_CID-49Y",
-    "publishedAt": "2026-07-02T06:58:00Z"
-  }
-],
+      {
+        "url": "https://youtu.be/lb13vPvYUpE",
+        "publishedAt": "2026-06-24T19:58:00Z"
+      },
+      {
+        "url": "https://youtu.be/oNROWTxcOYg",
+        "publishedAt": "2026-06-25T10:58:00Z"
+      },
+      {
+        "url": "https://youtu.be/N1hWl-Vul94",
+        "publishedAt": "2026-07-01T13:58:00Z"
+      },
+      {
+        "url": "https://youtu.be/Xz7_CID-49Y",
+        "publishedAt": "2026-07-02T06:58:00Z"
+      }
+    ],
     "excludeKeywords": [
       "#shorts",
       "armstrong",
@@ -153,7 +202,6 @@
       "strf",
       "digital credit"
     ],
-
     "excludeKeywords": [
       "armstrong"
     ],
@@ -161,14 +209,33 @@
     "enabled": true
   },
   "preferredDividends": {
-  "asOf": "2026-06-30",
-  "source": "10-Q 0001050446-26-000044 preferred stock table; STRE converted from EUR 775.0M at 1.1817 (rate implied by Q1 dividends paid: $22,895k / (EUR 775,000k x 10%/4))",
-  "instruments": [
-    { "ticker": "STRC", "notionalUSD": 10489471000 },
-    { "ticker": "STRF", "notionalUSD": 1283969000, "ratePct": 10.0 },
-    { "ticker": "STRK", "notionalUSD": 1402074000, "ratePct": 8.0 },
-    { "ticker": "STRD", "notionalUSD": 1402422000, "ratePct": 10.0 },
-    { "ticker": "STRE", "notionalUSD": 915800000, "ratePct": 10.0 }
-  ]
-}
+    "asOf": "2026-06-30",
+    "source": "10-Q 0001050446-26-000044 preferred stock table; STRE converted from EUR 775.0M at 1.1817 (rate implied by Q1 dividends paid: $22,895k / (EUR 775,000k x 10%/4))",
+    "instruments": [
+      {
+        "ticker": "STRC",
+        "notionalUSD": 10489471000
+      },
+      {
+        "ticker": "STRF",
+        "notionalUSD": 1283969000,
+        "ratePct": 10.0
+      },
+      {
+        "ticker": "STRK",
+        "notionalUSD": 1402074000,
+        "ratePct": 8.0
+      },
+      {
+        "ticker": "STRD",
+        "notionalUSD": 1402422000,
+        "ratePct": 10.0
+      },
+      {
+        "ticker": "STRE",
+        "notionalUSD": 915800000,
+        "ratePct": 10.0
+      }
+    ]
+  }
 }
