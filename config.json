@@ -33,7 +33,7 @@
       "avgPriceUSD": 79670,
       "filingDescription": "8-K Sep 21, 2026 · USD-Cash-funded period Sep 14–Sep 20",
       "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526396093/mstr-20260914.htm",
-      "fundingSource": "mstr",
+      "fundingSource": "usdcash",
       "totalWeeklyBTC": 950,
       "totalWeeklyProceeds": 75700000
     },
