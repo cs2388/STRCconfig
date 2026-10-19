@@ -1,12 +1,12 @@
 {
   "version": 1,
   "updated": "2026-10-13T12:50:52Z",
-  "strategyTotalBTC": 848250,
+  "strategyTotalBTC": 848517,
   "usdReserve": {
-    "balanceUSD": 4880000000,
+    "balanceUSD": 4830000000,
     "monetizationCapacityUSD": 1250000000,
     "monetizationAvailableUSD": 1250000000,
-    "usdCash": 640500000
+    "usdCash": 447300000
   },
   "blockedFilingDates": [
     "2026-06-01",
