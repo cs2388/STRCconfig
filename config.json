@@ -21,6 +21,39 @@
   ],
   "confirmedPurchases": [
     {
+      "date": "2026-11-09",
+      "btc": 1036,
+      "totalValueUSD": 81900000,
+      "avgPriceUSD": 79012,
+      "filingDescription": "8-K Nov 9, 2026 · MSTR-funded period Nov 2–Nov 8",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526452693/mstr-20261109.htm",
+      "fundingSource": "mstr",
+      "totalWeeklyBTC": 1036,
+      "totalWeeklyProceeds": 81900000
+    },
+    {
+      "date": "2026-11-02",
+      "btc": 811,
+      "totalValueUSD": 65500000,
+      "avgPriceUSD": 80846,
+      "filingDescription": "8-K Nov 2, 2026 · MSTR-funded period Oct 26–Nov 1",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526442707/mstr-20261102.htm",
+      "fundingSource": "mstr",
+      "totalWeeklyBTC": 811,
+      "totalWeeklyProceeds": 65500000
+    },
+    {
+      "date": "2026-10-19",
+      "btc": 267,
+      "totalValueUSD": 22100000,
+      "avgPriceUSD": 82900,
+      "filingDescription": "8-K Oct 19, 2026 · MSTR-funded period Oct 12–Oct 18 ($0.1M from USD Cash)",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526424688/mstr-20261019.htm",
+      "fundingSource": "mstr",
+      "totalWeeklyBTC": 267,
+      "totalWeeklyProceeds": 22100000
+    },
+    {
       "date": "2026-10-13",
       "btc": 250,
       "totalValueUSD": 21500000,
@@ -41,6 +74,17 @@
       "fundingSource": "mstr",
       "totalWeeklyBTC": 334,
       "totalWeeklyProceeds": 28700000
+    },
+    {
+      "date": "2026-09-28",
+      "btc": 1665,
+      "totalValueUSD": 142700000,
+      "avgPriceUSD": 85706,
+      "filingDescription": "8-K Sep 28, 2026 · MSTR-funded period Sep 21–Sep 27",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526403417/mstr-20260914.htm",
+      "fundingSource": "mstr",
+      "totalWeeklyBTC": 1665,
+      "totalWeeklyProceeds": 142700000
     },
     {
       "date": "2026-09-21",
