@@ -21,6 +21,17 @@
   ],
   "confirmedPurchases": [
     {
+      "date": "2026-11-16",
+      "btc": 485,
+      "totalValueUSD": 33400000,
+      "avgPriceUSD": 68887,
+      "filingDescription": "8-K Nov 16, 2026 · MSTR-funded period Nov 9–Nov 15",
+      "secURL": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526462151/mstr-20261116.htm",
+      "fundingSource": "mstr",
+      "totalWeeklyBTC": 485,
+      "totalWeeklyProceeds": 33400000
+    },
+    {
       "date": "2026-11-09",
       "btc": 1036,
       "totalValueUSD": 81900000,
