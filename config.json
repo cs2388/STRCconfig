@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updated": "2026-10-13T12:50:52Z",
-  "strategyTotalBTC": 848517,
+  "updated": "2026-11-16T16:51:14Z",
+  "strategyTotalBTC": 850849,
   "usdReserve": {
-    "balanceUSD": 4830000000,
+    "balanceUSD": 4750000000,
     "monetizationCapacityUSD": 1250000000,
     "monetizationAvailableUSD": 1250000000,
-    "usdCash": 242400000
+    "usdCash": 151200000
   },
   "blockedFilingDates": [
     "2026-06-01",
@@ -15,9 +15,18 @@
   ],
   "strcYield": 12.0,
   "yieldHistory": [
-    { "month": "2026-09", "rate": 12.0 },
-    { "month": "2026-10", "rate": 12.0 },
-    { "month": "2026-11", "rate": 12.0 }
+    {
+      "month": "2026-09",
+      "rate": 12.0
+    },
+    {
+      "month": "2026-10",
+      "rate": 12.0
+    },
+    {
+      "month": "2026-11",
+      "rate": 12.0
+    }
   ],
   "confirmedPurchases": [
     {
